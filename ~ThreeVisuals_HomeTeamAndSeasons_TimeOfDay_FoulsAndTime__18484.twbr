@@ -1,0 +1,1118 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Updated_PremierLeague_Stats_From_2014to2021' inline='true' name='federated.0kvnawi1has4cb1fqpw441vsgyc5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Updated_PremierLeague_Stats_From_2014to2021' name='textscan.0enssa912g5gy019qwrcm0bwf4mr'>
+            <connection class='textscan' directory='C:/Users/Jake/Desktop/predicting_the_premier_league/League_Result_Data' filename='Updated_PremierLeague_Stats_From_2014to2021.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0enssa912g5gy019qwrcm0bwf4mr' name='Updated_PremierLeague_Stats_From_2014to2021.csv' table='[Updated_PremierLeague_Stats_From_2014to2021#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Season' ordinal='1' />
+            <column datatype='date' name='Date' ordinal='2' />
+            <column datatype='datetime' name='Time' ordinal='3' />
+            <column datatype='string' name='HomeTeam' ordinal='4' />
+            <column datatype='string' name='AwayTeam' ordinal='5' />
+            <column datatype='real' name='FTHG' ordinal='6' />
+            <column datatype='real' name='FTAG' ordinal='7' />
+            <column datatype='string' name='FTR' ordinal='8' />
+            <column datatype='real' name='HTHG' ordinal='9' />
+            <column datatype='real' name='HTAG' ordinal='10' />
+            <column datatype='string' name='HTR' ordinal='11' />
+            <column datatype='string' name='Referee' ordinal='12' />
+            <column datatype='real' name='Fouls Called Per Game' ordinal='13' />
+            <column datatype='real' name='HS' ordinal='14' />
+            <column datatype='real' name='AS' ordinal='15' />
+            <column datatype='real' name='HST' ordinal='16' />
+            <column datatype='real' name='AST' ordinal='17' />
+            <column datatype='real' name='HF' ordinal='18' />
+            <column datatype='real' name='AF' ordinal='19' />
+            <column datatype='real' name='HC' ordinal='20' />
+            <column datatype='real' name='AC' ordinal='21' />
+            <column datatype='real' name='HY' ordinal='22' />
+            <column datatype='real' name='AY' ordinal='23' />
+            <column datatype='real' name='HR' ordinal='24' />
+            <column datatype='real' name='AR' ordinal='25' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0enssa912g5gy019qwrcm0bwf4mr' name='Updated_PremierLeague_Stats_From_2014to2021.csv' table='[Updated_PremierLeague_Stats_From_2014to2021#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Season' ordinal='1' />
+            <column datatype='date' name='Date' ordinal='2' />
+            <column datatype='datetime' name='Time' ordinal='3' />
+            <column datatype='string' name='HomeTeam' ordinal='4' />
+            <column datatype='string' name='AwayTeam' ordinal='5' />
+            <column datatype='real' name='FTHG' ordinal='6' />
+            <column datatype='real' name='FTAG' ordinal='7' />
+            <column datatype='string' name='FTR' ordinal='8' />
+            <column datatype='real' name='HTHG' ordinal='9' />
+            <column datatype='real' name='HTAG' ordinal='10' />
+            <column datatype='string' name='HTR' ordinal='11' />
+            <column datatype='string' name='Referee' ordinal='12' />
+            <column datatype='real' name='Fouls Called Per Game' ordinal='13' />
+            <column datatype='real' name='HS' ordinal='14' />
+            <column datatype='real' name='AS' ordinal='15' />
+            <column datatype='real' name='HST' ordinal='16' />
+            <column datatype='real' name='AST' ordinal='17' />
+            <column datatype='real' name='HF' ordinal='18' />
+            <column datatype='real' name='AF' ordinal='19' />
+            <column datatype='real' name='HC' ordinal='20' />
+            <column datatype='real' name='AC' ordinal='21' />
+            <column datatype='real' name='HY' ordinal='22' />
+            <column datatype='real' name='AY' ordinal='23' />
+            <column datatype='real' name='HR' ordinal='24' />
+            <column datatype='real' name='AR' ordinal='25' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HomeTeam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HomeTeam]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HomeTeam</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AwayTeam</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AwayTeam]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>AwayTeam</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FTHG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FTHG]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>FTHG</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FTAG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FTAG]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>FTAG</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FTR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FTR]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>FTR</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HTHG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HTHG]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HTHG</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HTAG</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HTAG]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HTAG</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HTR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HTR]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HTR</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Referee</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Referee]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>Referee</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls Called Per Game</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fouls Called Per Game]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>Fouls Called Per Game</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HS]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HS</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AS]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>AS</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HST</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HST]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HST</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AST</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AST]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>AST</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HF</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HF]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HF</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AF</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AF]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>AF</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HC]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HC</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AC</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AC]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>AC</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HY]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HY</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AY</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AY]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>AY</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HR]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>HR</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AR]</local-name>
+            <parent-name>[Updated_PremierLeague_Stats_From_2014to2021.csv]</parent-name>
+            <remote-alias>AR</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Away Team' datatype='string' name='[AwayTeam]' role='dimension' type='nominal' />
+      <column caption='TotalShots' datatype='real' name='[Calculation_1395271489434210306]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[AS]+[HS]' />
+      </column>
+      <column caption='TotalFouls' datatype='real' name='[Calculation_1395271489438314499]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[HF] + [AF]' />
+      </column>
+      <column caption='Ftag' datatype='real' name='[FTAG]' role='measure' type='quantitative' />
+      <column caption='Fthg' datatype='real' name='[FTHG]' role='measure' type='quantitative' />
+      <column caption='Htag' datatype='real' name='[HTAG]' role='measure' type='quantitative' />
+      <column caption='Hthg' datatype='real' name='[HTHG]' role='measure' type='quantitative' />
+      <column caption='Home Team' datatype='string' name='[HomeTeam]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Referee]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Season]' role='dimension' type='nominal' />
+      <column aggregation='Hour' datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Updated_PremierLeague_Stats_From_2014to2021.csv' datatype='table' name='[__tableau_internal_object_id__].[Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D]' role='measure' type='quantitative' />
+      <column-instance column='[HomeTeam]' derivation='None' name='[none:HomeTeam:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Referee]' derivation='None' name='[none:Referee:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Season]' derivation='None' name='[none:Season:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Season:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fall&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Winter&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Summer&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Spring&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Referee:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;G Scott&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;S Attwell&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;A Madley&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;N Swarbrick&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;C Kavanagh&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;P Tierney&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;L Mason&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;J Moss&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;S Hooper&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;C Pawson&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;R East&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;M Jones&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;A Marriner&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;O Langford&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;M Clattenburg&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;D Coote&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;R Jones&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;l Mason&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;L Probert&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;M Dean&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;M Oliver&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;K Friend&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;S Scott&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;D England&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;R Madley&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;A Taylor&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;P Bankes&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;M Atkinson&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;K Stroud&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;T Robinson&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;C Foy&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;P Dowd&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:HomeTeam:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Everton&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;West Brom&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Arsenal&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;QPR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Burnley&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sunderland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Leeds&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Fulham&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;West Ham&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cardiff&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Swansea&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Newcastle&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Aston Villa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sheffield United&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Man United&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Chelsea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tottenham&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Leicester&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Liverpool&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Middlesbrough&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Norwich&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Huddersfield&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Wolves&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Crystal Palace&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Watford&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bournemouth&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Southampton&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Man City&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hull&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Brighton&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Stoke&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Updated_PremierLeague_Stats_From_2014to2021.csv' id='Updated_PremierLeague_Stats_From_2014to2021.csv_202DB1F4BE0E47EA8E8437C9D65DFC3D'>
+            <properties context=''>
+              <relation connection='textscan.0enssa912g5gy019qwrcm0bwf4mr' name='Updated_PremierLeague_Stats_From_2014to2021.csv' table='[Updated_PremierLeague_Stats_From_2014to2021#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Season' ordinal='1' />
+                  <column datatype='date' name='Date' ordinal='2' />
+                  <column datatype='datetime' name='Time' ordinal='3' />
+                  <column datatype='string' name='HomeTeam' ordinal='4' />
+                  <column datatype='string' name='AwayTeam' ordinal='5' />
+                  <column datatype='real' name='FTHG' ordinal='6' />
+                  <column datatype='real' name='FTAG' ordinal='7' />
+                  <column datatype='string' name='FTR' ordinal='8' />
+                  <column datatype='real' name='HTHG' ordinal='9' />
+                  <column datatype='real' name='HTAG' ordinal='10' />
+                  <column datatype='string' name='HTR' ordinal='11' />
+                  <column datatype='string' name='Referee' ordinal='12' />
+                  <column datatype='real' name='Fouls Called Per Game' ordinal='13' />
+                  <column datatype='real' name='HS' ordinal='14' />
+                  <column datatype='real' name='AS' ordinal='15' />
+                  <column datatype='real' name='HST' ordinal='16' />
+                  <column datatype='real' name='AST' ordinal='17' />
+                  <column datatype='real' name='HF' ordinal='18' />
+                  <column datatype='real' name='AF' ordinal='19' />
+                  <column datatype='real' name='HC' ordinal='20' />
+                  <column datatype='real' name='AC' ordinal='21' />
+                  <column datatype='real' name='HY' ordinal='22' />
+                  <column datatype='real' name='AY' ordinal='23' />
+                  <column datatype='real' name='HR' ordinal='24' />
+                  <column datatype='real' name='AR' ordinal='25' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Fouls and Time'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>Can traveling and time of day impact a team&apos;s discipline? That was the question behind this visual. </run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Updated_PremierLeague_Stats_From_2014to2021' name='federated.0kvnawi1has4cb1fqpw441vsgyc5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kvnawi1has4cb1fqpw441vsgyc5'>
+            <column datatype='real' name='[AF]' role='measure' type='quantitative' />
+            <column caption='Away Team' datatype='string' name='[AwayTeam]' role='dimension' type='nominal' />
+            <column aggregation='Hour' datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column-instance column='[Time]' derivation='Hour' name='[hr:Time:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AwayTeam]' derivation='None' name='[none:AwayTeam:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AF]' derivation='Sum' name='[sum:AF:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[hr:Time:ok]'>
+            <groupfilter function='level-members' level='[hr:Time:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0kvnawi1has4cb1fqpw441vsgyc5].[hr:Time:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[sum:AF:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#0055ff</color>
+                <color>#296ef8</color>
+                <color>#5086f2</color>
+                <color>#769dec</color>
+                <color>#99b2e5</color>
+                <color>#bac6df</color>
+                <color>#d9d9d9</color>
+                <color>#dfbaba</color>
+                <color>#e59999</color>
+                <color>#ec7676</color>
+                <color>#f25050</color>
+                <color>#f82929</color>
+                <color>#ff0000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[sum:AF:qk]' />
+              <color column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[sum:AF:qk]' />
+              <text column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:AwayTeam:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7F2674DC-BB48-499E-B703-F6169160BF9E}' />
+    </worksheet>
+    <worksheet name='Home Team &amp; Seasons'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>This visual showcases how each HomeTeam performs during the various times of the year (ie the different seasons). The performance is based off the number of shots, the more the better. The size of the circles are dependent on the amount of shots for the HomeTeam and this visual is filtered by AwayTeams. This allows to see how teams fare against one another in throughout the year.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Updated_PremierLeague_Stats_From_2014to2021' name='federated.0kvnawi1has4cb1fqpw441vsgyc5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kvnawi1has4cb1fqpw441vsgyc5'>
+            <column caption='Away Team' datatype='string' name='[AwayTeam]' role='dimension' type='nominal' />
+            <column datatype='string' name='[FTR]' role='dimension' type='nominal' />
+            <column caption='Home Team' datatype='string' name='[HomeTeam]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Season]' role='dimension' type='nominal' />
+            <column-instance column='[FTR]' derivation='Count' name='[cnt:FTR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AwayTeam]' derivation='None' name='[none:AwayTeam:nk]' pivot='key' type='nominal' />
+            <column-instance column='[HomeTeam]' derivation='None' name='[none:HomeTeam:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:AwayTeam:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:AwayTeam:nk]' member='&quot;Everton&quot;' />
+              <groupfilter function='member' level='[none:AwayTeam:nk]' member='&quot;Fulham&quot;' />
+              <groupfilter function='member' level='[none:AwayTeam:nk]' member='&quot;Huddersfield&quot;' />
+              <groupfilter function='member' level='[none:AwayTeam:nk]' member='&quot;Hull&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:Season:nk]'>
+            <groupfilter function='member' level='[none:Season:nk]' member='&quot;Winter&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:AwayTeam:nk]</column>
+            <column>[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:Season:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[cnt:FTR:qk]' />
+              <text column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:HomeTeam:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B6D04EB0-72DF-4D62-AA4D-736C4DE23BC0}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DD1130E9-A8E0-4652-BCE1-C6EFF1571833}' />
+    </worksheet>
+    <worksheet name='Time of Day'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Time of Day</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run>This visual is used to showcase the number of shots during the various parts of the year. Here we used TotalShots (HomeTeam Shots + AwayTeamShots) to see if the time idea of day had a potential impact on the offensive performance of teams. 
+
+This visual is also filtered by AwayTeam and HomeTeam so we can select individual teams to check how they performed offensively given various conditions</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Updated_PremierLeague_Stats_From_2014to2021' name='federated.0kvnawi1has4cb1fqpw441vsgyc5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kvnawi1has4cb1fqpw441vsgyc5'>
+            <column datatype='real' name='[AS]' role='measure' type='quantitative' />
+            <column caption='Away Team' datatype='string' name='[AwayTeam]' role='dimension' type='nominal' />
+            <column caption='TotalShots' datatype='real' name='[Calculation_1395271489434210306]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[AS]+[HS]' />
+            </column>
+            <column datatype='real' name='[HS]' role='measure' type='quantitative' />
+            <column caption='Home Team' datatype='string' name='[HomeTeam]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Season]' role='dimension' type='nominal' />
+            <column aggregation='Hour' datatype='datetime' name='[Time]' role='dimension' type='ordinal' />
+            <column-instance column='[Time]' derivation='Hour' name='[hr:Time:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AwayTeam]' derivation='None' name='[none:AwayTeam:nk]' pivot='key' type='nominal' />
+            <column-instance column='[HomeTeam]' derivation='None' name='[none:HomeTeam:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1395271489434210306]' derivation='Sum' name='[sum:Calculation_1395271489434210306:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[hr:Time:ok]'>
+            <groupfilter function='member' level='[hr:Time:ok]' member='16' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:AwayTeam:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter from='&quot;Arsenal&quot;' function='range' level='[none:AwayTeam:nk]' to='&quot;Burnley&quot;' />
+              <groupfilter from='&quot;Chelsea&quot;' function='range' level='[none:AwayTeam:nk]' to='&quot;Everton&quot;' />
+              <groupfilter from='&quot;Leeds&quot;' function='range' level='[none:AwayTeam:nk]' to='&quot;Man United&quot;' />
+              <groupfilter function='member' level='[none:AwayTeam:nk]' member='&quot;Newcastle&quot;' />
+              <groupfilter function='member' level='[none:AwayTeam:nk]' member='&quot;Norwich&quot;' />
+              <groupfilter function='member' level='[none:AwayTeam:nk]' member='&quot;Sheffield United&quot;' />
+              <groupfilter function='member' level='[none:AwayTeam:nk]' member='&quot;Southampton&quot;' />
+              <groupfilter from='&quot;Tottenham&quot;' function='range' level='[none:AwayTeam:nk]' to='&quot;Wolves&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:HomeTeam:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Arsenal&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Aston Villa&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Brighton&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Burnley&quot;' />
+              <groupfilter from='&quot;Chelsea&quot;' function='range' level='[none:HomeTeam:nk]' to='&quot;Fulham&quot;' />
+              <groupfilter from='&quot;Leeds&quot;' function='range' level='[none:HomeTeam:nk]' to='&quot;Man United&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Newcastle&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Norwich&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Sheffield United&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Southampton&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Tottenham&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Watford&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;West Ham&quot;' />
+              <groupfilter function='member' level='[none:HomeTeam:nk]' member='&quot;Wolves&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kvnawi1has4cb1fqpw441vsgyc5].[hr:Time:ok]</column>
+            <column>[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:HomeTeam:nk]</column>
+            <column>[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:AwayTeam:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[sum:Calculation_1395271489434210306:qk]' />
+              <color column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[sum:Calculation_1395271489434210306:qk]' />
+              <text column='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:Season:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A3CEAD1A-F321-49BB-98E7-A204A3E91EE9}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Home Team &amp; Seasons'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:Season:nk]' type='filter' />
+            <card param='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[none:AwayTeam:nk]' type='filter' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E3745900-A78E-42FE-8159-155749E99B6E}' />
+    </window>
+    <window class='worksheet' name='Time of Day'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='148'>
+            <card param='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[hr:Time:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[sum:Calculation_1395271489434210306:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6D50729A-5C86-41C3-871D-1C5167D7C97A}' />
+    </window>
+    <window class='worksheet' name='Fouls and Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='96'>
+            <card type='caption' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[hr:Time:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0kvnawi1has4cb1fqpw441vsgyc5].[sum:AF:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{954C8FF8-335B-4C76-BD97-7FE5C327333E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B6DA7448-E8DD-416C-8773-A1BF8F60EB54}' />
+    </window>
+  </windows>
+</workbook>
